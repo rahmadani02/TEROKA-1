@@ -1,0 +1,60 @@
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://i.pinimg.com/474x/6f/78/82/6f788269f05c97b48355ae297d304787.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  text-align: center;
+}
+
+.top-wrapper h3 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.instagram {
+  background-color: #fa5656;
+  margin-left: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
