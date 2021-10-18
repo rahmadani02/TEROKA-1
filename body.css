@@ -5,124 +5,120 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
-li {
-    list-style: none;
-}
-@font-face {
-    font-family:'poppins';
-    src: url(Poppins-Regular.ttf);
-  }
-@font-face {
-    font-family: 'poppins-medium';
-    src:url(Poppins-SemiBold.ttf)
-}
-@font-face {
-    font-family: 'poppins-light';
-    src: url(Poppins-Light.ttf);
-}
 .content-profil {
-    height: 600px;
-    background-color:#eaeef6;
-    text-align:center
+  padding-bottom: 20px;
+  height: 600px;
+  background-color:#eaeef6;
+  text-align:center
 }
-.heading {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: #5f5d60
+.profil-heading {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #5f5d60
 }
-h2 {
-    margin-top: 35px;
-    font-size: 30px;
-    letter-spacing: 0.6px;
-    font-family:'poppins-medium';
-    margin-bottom: 50px;
+.profil-title {
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  margin-top: 35px;
+  font-size: 40px;
+  letter-spacing: 0.6px;
+  font-family:'poppins', sans-serif;
+  margin-bottom: 50px;
 }
 .profil {
-    float: left;
-    width: 20%
+  float: left;
+  width: 20%
 }
 .profil-icon {
-    position:relative
+  position:relative
 }
 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 .profil-icon p {
-    font-family:'poppins-medium';
-    font-weight: 400px;
-    top: 50px;
-    width: 100%;
-    position:absolute
+  font-family:'poppins', sans-serif;
+  font-weight: bold;
+  top: 50px;
+  width: 100%;
+  position:absolute
 }
 
 .txt-contents {
-    font-weight: 400;
-    font-family: 'poppins-light';
-    color: black;
-    display: inline-block;
-    font-size: 15px;
-    width: 80%;
-    padding: 20px;
+  font-weight: 400;
+  font-family: 'poppins', sans-serif;
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+  width: 80%;
+  padding: 20px;
 }
 .contact-wrapper {
-    padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-    background-color: #c8cee1;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #c8cee1;
 }
-.heading {
-    padding-top: 30px;
-    color: #5f5d60
+.contact-heading {
+  padding-top: 30px;
+  color: #5f5d60
 }
-h3 {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'poppins';
-    margin-bottom: 50px;
+.contact-title {
+  letter-spacing: -0.5px;
+  color: #21383e;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'poppins', sans-serif;
+  margin-bottom: 50px;
 }
 .contact-container {
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 10px;
-    height: 500px;
-    width: 100%;
-    background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  height: 500px;
+  width: 100%;
+  background-color: #fff;
 }
 .container-image img {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 .container-form {
-    padding-bottom: 20px;
-    margin-top: 60px;
-    text-align: center;
-    width: 50%;
-    float: left;
+  font-weight: bolder;
+  font-family: 'poppins', sans-serif;
+  padding-bottom: 20px;
+  margin-top: 60px;
+  text-align: center;
+  width: 50%;
+  float: left;
 }
 input,textarea {
-    width: 300px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #121213;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 10px;
-    font-family: 'poppins-light';
+  font-weight: lighter;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #121213;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: 'poppins', sans-serif;
 }
 p {
-    font-family: 'poppins-medium';
+  font-family: 'poppins', sans-serif;
 }
 .contact {
-    padding: 10px 40px;
-    background-color: #5dca88;
-    opacity: 0.8;
-    cursor: pointer;
-    box-shadow: 0 7px #1a7940;
-    border-radius: 10px;
+  font-weight: bold;
+  font-family: 'poppins', sans-serif;
+  padding: 10px 40px;
+  background-color: #5dca88;
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  border-radius: 10px;
 }
 .contact:active {
-    box-shadow: none;
-    position: relative;
-    top: 7px;
+  box-shadow: none;
+  position: relative;
+  top: 7px;
 }
