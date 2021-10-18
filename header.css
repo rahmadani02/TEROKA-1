@@ -1,0 +1,23 @@
+.header-list a {
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+    color: #f2f2f2;
+    text-align: center;
+}
+.header-list a:hover {
+    background-color: ;
+    color : black;
+    height: 25px;
+}
+.header {
+    background-color: #ccccff;
+    color :#000000;
+    height: 90px;
+}
+.header-logo {
+    font-size: 36px;
+    float: left;
+    padding : 20px 40px;
+}
+
